@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>Newspaper</title>
+
+<style>
+
+body{
+
+font-family: Arial, sans-serif;
+
+background-color: #f4f4f4;
+
+margin: 20px;
+
+}
+
+header{
+
+background-color:green;
+
+color:#fff;
+
+padding:20px;
+
+text-align:center;
+
+}
+
+nav{
+
+background-color:black;
+
+padding:10px;
+
+text-align:center;
+
+}
+nav a {
+  color: white;
+  margin: 0 15px;        
+  text-decoration: none;    
+  font-weight: bold;       
+  font-size: 16px;
+}
+
+
+div{
+
+background-color:lightgrey;
+
+margin:20px;
+
+padding:20px;
+
+}
+
+main{
+
+display:flex;
+
+margin-top:20px;
+
+}
+
+section{
+
+flex:2;
+
+margin-right:20px;
+
+}
+
+article{
+
+background-color:white;
+
+padding:20px;
+
+margin-bottom:20px;
+
+}
+
+figure{
+
+margin:0;
+
+text-align:center;
+
+}
+
+figcaption{
+
+font-style:italic;
+
+text-align:center;
+
+}
+
+aside {
+  flex: none;
+  background-color: lightgrey;
+  padding: 20px;
+  width: 250px;
+  align-self: flex-start; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+table,th,td{
+
+border:1px solid black;
+
+border-collapse:collapse;
+
+padding:20px;
+
+}
+
+footer{
+
+background-color:green;
+
+text-align:center;
+
+color:white;
+
+padding:10px;
+
+}
+
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<header><h1>Daily News</h1>
+
+<h2>Your source for the latest update</h2></header>
+
+<nav>
+ <a href="#">Home</a>
+  <a href="https://www.bbc.com/news" target="_blank">World</a>
+  <a href="https://www.espn.com/" target="_blank">Sports</a>
+  <a href="https://www.hollywoodreporter.com/" target="_blank">Entertainment</a>
+ 
+</nav>
+
+
+<main>
+
+<section>
+
+<article>
+
+<div>
+
+<h2>Breaking News:Technology Advances</h2>
+
+<p>The world of technology is evolving at a rapid pace...</p>
+
+</div>
+
+<div>
+
+<h2>Health:Tips for a better life</h2>
+
+<p>Health is Wealth.Here are some tips to maintain a healthy lifestyle...</p>
+
+</div>
+
+<figure>
+
+<img src="image.jpg" alt="image" height=400px; width=400px;>
+
+<figcaption>Image:Latest News Update</figcaption>
+
+</figure>
+</article>
+
+<article>
+
+<p>Latest Sports Scores</p>
+
+<table style="width:100%">
+
+<tr>
+
+<th>Team</th>
+
+<th>Score</th>
+
+<th>Opponent</th>
+
+</tr>
+
+<tr>
+
+<td>RCB</td>
+
+<td>85</td>
+
+<td>CSK</td>
+
+</tr>
+
+<tr>
+
+<td>CSK</td>
+
+<td>75</td>
+
+<td>KKR</td>
+
+</tr>
+
+<tr>
+
+<td>PPK</td>
+
+<td>89</td>
+
+<td>RCB</td>
+
+</tr>
+
+</table>
+
+</article>
+
+</section>
+<aside>
+
+<h3>Weather Update</h3>
+
+<p>Expect sunny skies with a high of 75F(24c) today</p>
+
+</aside>
+
+</main>
+
+<footer>
+
+<p>&copy; 2023 the Daily Chronicle.All rights reserved.</p>
+
+</footer>
+
+</body>
+
+</html>
