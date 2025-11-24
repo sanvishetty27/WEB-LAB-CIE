@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Time Table</title>
+
+<style>
+
+table,th,td{
+
+border:1px solid black;
+
+border-collapse:collapse;
+
+}
+
+th,td{
+
+padding:10px;
+
+}
+
+*{
+
+text-align:center;
+
+}
+
+</style>
+
+</head>
+
+<h1 style="text-align:left">Class Time Table</h1>
+
+<table style="width:50%">
+
+<thead>
+
+<tr>
+
+<th rowspan="2">Day</th>
+
+<th colspan="5">Subject-Time</th>
+
+</tr>
+
+<tr style="color:maroon">
+
+<th>9:00-10:00</th>
+
+<th>10:00-11:00</th>
+
+<th>11:00-12:00</th>
+
+<th>1:00-2:00</th>
+
+<th>2:00-3:00</th>
+
+</tr>
+
+</thead>
+
+<tr style="background-color:lavender">
+
+<td>Monday</td>
+
+<td>Mathematics</td>
+
+<td>Physics</td>
+
+<td colspan="2" style="background-color:yellow">Physics lab</td>
+
+<td>English</td>
+
+</tr>
+
+<tr style="background-color:peachpuff">
+
+<td>Tuesday</td>
+
+<td>Chemistry</td>
+
+<td>Maths</td>
+
+<td>English</td>
+
+<td style="background-color:pink">Elective-AI</td>
+
+<td>Free period</td>
+
+</tr>
+
+<tr style="background-color:lavender">
+
+<td>Wednesday</td>
+
+<td colspan="2" style="background-color:pink">Elective-Machine Learning</td>
+
+<td>Chemistry</td>
+
+<td>English</td>
+
+<td style="background-color:yellow">Chemistry lab</td>
+
+</tr>
+
+<tr style="background-color:peachpuff">
+
+<td>Thursday</td>
+
+<td>Maths</td>
+
+<td>Physics</td>
+
+<td>Computer Science</td>
+
+<td>Chemistry</td>
+
+<td style="background-color:pink">Elective-Data Science</td>
+
+</tr>
+
+<tr style="background-color:lavender">
+
+<td>Friday</td>
+
+<td>English</td>
+
+<td colspan="2" style="background-color:yellow">Computer Science Lab</td>
+
+<td>Physics</td>
+
+<td>Chemistry</td>
+
+</tr>
+
+<tfoot>
+
+<tr>
+
+<td style="background-color:powderblue" colspan="6">Note:Lab sessions and Elective are highlighted with different colors</td>
+
+</tr>
+
+</tfoot>
+
+</table>
+
+</body>
+
+</html>
