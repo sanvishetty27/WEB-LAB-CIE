@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>jQuery Script Tasks</title>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js">
+</script>
+<style>
+body{
+font-family:Arial,sans-serif;
+margin:20px;
+}
+p,ul,div{
+margin:10px 0;
+padding:10px;
+}
+p,ul,li{
+color:#333;
+}
+.box1,.box2{
+width:100px;
+height:100px;
+}
+.box1{
+background-color:lightblue;
+}
+.box2{
+background-color:plum;
+}
+</style>
+</head>
+<body>
+<h2>Append Content</h2>
+<p id="para">This is an existing paragraph</p>
+<ul id="list">
+  <li style="color: red; font-weight: bold;">Item 1</li>
+  <li style="color: green; font-style: italic;">Item 2</li>
+  <li style="color: blue; text-decoration: underline;">Item 3</li>
+  <li style="color: purple; font-size: 18px;">Item 4</li>
+  <li style="color: orange; font-family: 'Courier New', monospace;">Item 5</li>
+
+
+</ul>
+<button id="appendBtn">Append Content</button>
+<h2>Animate Element</h2>
+<div class="box1" id="animateBox1"></div>
+<button id="animateBtn1">Animate Box</button>
+<div class="box2" id="animateBox2"></div>
+<button id="animateBtn2">Animate Box</button>
+
+<script>
+$(document).ready(function(){
+let itemCount=$('#list li').length;
+$('#appendBtn').click(()=>{
+itemCount++;
+$('#para').append(`Appended text ${itemCount}`);
+$('#list').append(`<li>Item ${itemCount}</li>`);
+});
+});
+$('#animateBtn1').click(()=>{
+$('#animateBox1').css({width:'100px',height:'100px','background-color':'lightblue'})
+.animate({width:'150px',height:'150px'},500,function(){
+$(this).css('background-color','lightblue');
+
+});
+
+});
+$('#animateBtn2').click(()=>{
+$('#animateBox2').css({width:'100px',height:'100px','background-color':'plum'})
+.animate({width:'150px',height:'150px'},500,function(){
+$(this).css('background-color','plum');
+
+});
+});
+</script>
+</body>
+</html>
