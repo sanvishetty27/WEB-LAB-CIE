@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<body style="background-color:lightblue">
+
+<p>This is<mark> Mark Tag</mark>.</p>
+
+<p>This is<del> delete tag</del></p>
+
+
+
+<h1 style="color:purple">WEB TECHNOLOGY LAB-BCSL504</h1>
+
+<h2 style="color:pink">WEB TECHNOLOGY LAB-BCSL504</h2>
+
+<h3 style="color:violet">WEB TECHNOLOGY LAB-BCSL504</h3>
+
+<h4 style="color:maroon">WEB TECHNOLOGY LAB-BCSL504</h4>
+
+<h5 style="color:blue">WEB TECHNOLOGY LAB-BCSL504</h5>
+
+<h6 style="color:Red">WEB TECHNOLOGY LAB-BCSL504</h6>
+
+<a href="https://www.w3schools.com">W3 Schools</a> <br>
+
+
+
+<br><marquee direction="right" behavior="alternate">Happy Monday</marquee><br>
+
+
+
+<br>
+
+<img src="logo.jpg" alt="Img" width="300" height="300">
+
+<img src="College.jpg" alt="Img" width="300" height="300">
+
+
+
+
+
+</body>
+
+</html>
