@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+<title>Styled Page Example</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Cascading Style Sheets</h2>
+<hr>
+<h3>What is CSS?</h3>
+<p><span>CSS</span> is used to define styles for your web pages,including the design,layout of web pages, including colors, fonts, spacing, and positioning.</p>
+<div>
+<h4>My name is Sakshi</h4>
+<p>I live in Udupi.</p>
+<p>I have a duty on <time datetime="2025-08-01 10:13">Exam day</time></p>
+</div>
+<img class="img1" src="img1.jpg" alt="Image" width="300" height="350">
+<img class="img2" src="img1.jpg" alt="Image" width="300" height="350">
+<img class="img3" src="img1.jpg" alt="Image" width="300" height="350">
+<a href="https://sode-edu.in/">sode-edu.com</a>
+<hr>
+<a href="https://www.wikipedia.org">wikipedia.org</a>
+<p id="para1">Hello World!</p>
+</body>
+</html>
